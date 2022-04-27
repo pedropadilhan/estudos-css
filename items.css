@@ -17,9 +17,14 @@ html, body{
 
     grid-gap: 5px;
 
+    justify-items: center;
+    align-items: center;
+
 
 }
 
 .container > div{
     background-color: #7489c1;
+    width: 50%;
+    height: 50%;
 }
