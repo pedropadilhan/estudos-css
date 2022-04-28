@@ -7,17 +7,22 @@ html, body {
 
 .container {
     display: grid;
-    grid-template-columns: 3fr 1fr; /* divisão proporcional */
-    grid-template-rows: 20vh 70vh 10vh; /* VIEWPORT = vh ou */
-    grid-template-areas:    "h a"
-                            "m a"
-                            "f a"
+    grid-template-columns: 1fr 3fr 1fr; /* divisão proporcional */
+    grid-template-rows: 20vh 70vh 10vh; /* VIEWPORT = vh ou vw*/
+    grid-template-areas:    "n h h"
+                            "n a m"
+                            "n f f"
 
 
 /*            row  column
     grid-gap: 20px 50px; 
      grid-row-gap: 20px;
     grid-column-gap: 20px; */
+}
+
+nav{
+    background-color: white;
+    grid-area: n;
 }
 
 header{
